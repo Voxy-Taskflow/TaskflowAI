@@ -1,0 +1,620 @@
+{
+    "task": "Create a presentation on AI advancements",
+    "steps": [
+      {"step": "Research the latest AI advancements", "agent": "web_surfer"},
+      {"step": "Generate an introduction slide", "agent": "text_gen"},
+      {"step": "Create bullet points summarizing key AI trends", "agent": "text_gen"},
+      {"step": "Generate an image for AI advancements slide", "agent": "image_gen"},
+      {"step": "Compile content into a PPT file", "agent": "ppt_creator"}
+    ]
+}
+{
+    "task": "Prepare a report on climate change impact",
+    "steps": [
+      {"step": "Gather latest data on climate change", "agent": "web_surfer"},
+      {"step": "Fact-check statistics from sources", "agent": "web_surfer"},
+      {"step": "Generate an introduction for the report", "agent": "text_gen"},
+      {"step": "Summarize key findings in text format", "agent": "text_gen"},
+      {"step": "Generate a graph showing temperature trends", "agent": "graph_visual_generator"},
+      {"step": "Compile all content into a PDF report", "agent": "pdf_creator"}
+    ]
+}
+{
+    "task": "Create a monthly sales report in Excel",
+    "steps": [
+      {"step": "Extract sales data from PDFs", "agent": "pdf_parser"},
+      {"step": "Parse relevant data from images (scanned receipts)", "agent": "image_parser"},
+      {"step": "Format the data into an Excel spreadsheet", "agent": "xlv_creator"},
+      {"step": "Generate sales insights and summary", "agent": "text_gen"},
+      {"step": "Create a graph representing sales trends", "agent": "graph_visual_generator"}
+    ]
+},
+{
+    "task": "Develop a marketing strategy for a new product",
+    "steps": [
+      {"step": "Analyze market trends and consumer behavior", "agent": "web_surfer"},
+      {"step": "Generate a SWOT analysis", "agent": "text_gen"},
+      {"step": "Create a marketing plan outline", "agent": "text_gen"},
+      {"step": "Design promotional materials (flyers, social media posts)", "agent": "image_gen"},
+      {"step": "Compile all materials into a presentation", "agent": "ppt_creator"}
+    ]
+}
+{
+    "task": "Organize a team-building event",
+    "steps": [
+      {"step": "Research potential venues and activities", "agent": "web_surfer"},
+      {"step": "Generate a list of team-building activities", "agent": "text_gen"},
+      {"step": "Create an event schedule", "agent": "text_gen"},
+      {"step": "Design promotional materials for the event", "agent": "image_gen"},
+      {"step": "Compile all information into an event brochure", "agent": "pdf_creator"}
+    ]
+}
+{
+    "task": "Write a blog post on healthy eating habits",
+    "steps": [
+      {"step": "Research latest trends in nutrition", "agent": "web_surfer"},
+      {"step": "Generate an outline for the blog post", "agent": "text_gen"},
+      {"step": "Write the blog post content", "agent": "text_gen"},
+      {"step": "Create infographics to support the content", "agent": "image_gen"},
+      {"step": "Publish the blog post on the website", "agent": "word_creater"}
+    ]
+}
+{
+    "task": "Generate a PDF on the latest trend on AI",
+    "steps": [
+      {"step": "Research the latest AI trends", "agent": "web_surfer"},
+      {"step": "Generate a summary of key trends", "agent": "text_gen"},
+      {"step": "Create infographics to illustrate trends", "agent": "image_gen"},
+      {"step": "Compile all content into a PDF document", "agent": "pdf_creator"}
+    ]
+}
+{
+    "task": "Create a social media campaign for a new product launch",
+    "steps": [
+      {"step": "Research target audience and platforms", "agent": "web_surfer"},
+      {"step": "Generate content ideas for posts", "agent": "text_gen"},
+      {"step": "Design graphics for social media posts", "agent": "image_gen"},
+      {"step": "Create a posting schedule", "agent": "text_gen"},
+      {"step": "Compile all materials into a campaign plan", "agent": "ppt_creator"}
+    ]
+}
+{
+    "task": "Research on the land prices in New York",
+    "steps": [
+      {"step": "Gather data on land prices in New York", "agent": "web_surfer"},
+      {"step": "Analyze historical price trends", "agent": "text_gen"},
+      {"step": "Generate a report summarizing findings", "agent": "text_gen"},
+      {"step": "Create graphs to visualize data", "agent": "graph_visual_generator"},
+      {"step": "Compile all information into a PDF report", "agent": "pdf_creator"}
+    ]
+}
+{
+  "task": "Create a training manual for new employees",
+  "steps": [
+    {"step": "Research best practices for employee training", "agent": "web_surfer"},
+    {"step": "Generate an outline for the manual", "agent": "text_gen"},
+    {"step": "Write the content for each section", "agent": "text_gen"},
+    {"step": "Design graphics and diagrams to support the content", "agent": "image_gen"},
+    {"step": "Compile all materials into a PDF manual", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Generate Python code to automate email sending.",
+  "steps": [
+    {"step": "Research libraries for sending emails in Python", "agent": "web_surfer"},
+    {"step": "Generate code snippets for email automation", "agent": "code_gen"},
+    {"step": "Create a README file explaining the code", "agent": "text_gen"},
+  ]
+}
+{
+  "task": "create an image of a Flying Elephant",
+  "steps": [
+    {"step": "Generate an image of a Flying Elephant", "agent": "image_gen"}
+  ]
+}
+{
+  "task": "Read this PDF and summarize it, while also visualizing it",
+  "steps": [
+    {"step": "Read the PDF and extract text", "agent": "pdf_parser"},
+    {"step": "Summarize the content", "agent": "text_gen"},
+    {"step": "Generate a visualization of the key points", "agent": "graph_visual_generator"}
+  ]
+}
+{
+  "task": "Convert this scanned invoice into an editable Excel sheet.",
+  "steps": [
+    {"step": "Extract text from the scanned invoice", "agent": "image_parser"},
+    {"step": "Parse the extracted text into structured data", "agent": "text_gen"},
+    {"step": "Create an Excel sheet with the parsed data", "agent": "xlv_creator"}
+  ]
+}
+{
+  "task": "Search for the best living locations in New Jersey, and create a report on pricing and ROI, also visualise the data",
+  "steps": [
+    {"step": "Research living locations in New Jersey", "agent": "web_surfer"},
+    {"step": "Gather data on pricing and ROI", "agent": "web_surfer"},
+    {"step": "Generate a report summarizing findings", "agent": "text_gen"},
+    {"step": "Create graphs to visualize data", "agent": "graph_visual_generator"},
+    {"step": "Compile all information into a PDF report", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Find out the latest Syllabus for the SAT exam, and generate a timetable for someone who also codes in his free time",
+  "steps": [
+    {"step": "Research the latest SAT syllabus", "agent": "web_surfer"},
+    {"step": "Generate a study timetable", "agent": "text_gen"},
+    {"step": "Create a coding schedule for free time", "agent": "text_gen"},
+    {"step": "Compile all information into a PDF document", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Create a Daily timetable for a buisnessman, who also has a family",
+  "steps": [
+    {"step": "Research best practices for time management", "agent": "web_surfer"},
+    {"step": "Generate a daily timetable template", "agent": "text_gen"},
+    {"step": "Include family time in the schedule", "agent": "text_gen"},
+    {"step": "Compile all information into a PDF document", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Create a plan for a weekend trip to the mountains",
+  "steps": [
+    {"step": "Research popular mountain destinations", "agent": "web_surfer"},
+    {"step": "Generate a list of activities to do", "agent": "text_gen"},
+    {"step": "Create a packing list", "agent": "text_gen"},
+    {"step": "Design a travel itinerary", "agent": "text_gen"},
+    {"step": "Compile all information into a PDF document", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Create a workout plan for someone who wants to lose weight",
+  "steps": [
+    {"step": "Research effective weight loss workouts", "agent": "web_surfer"},
+    {"step": "Generate a weekly workout schedule", "agent": "text_gen"},
+    {"step": "Include nutrition tips and meal plans", "agent": "text_gen"},
+    {"step": "Compile all information into a PDF document", "agent": "pdf_creator"}
+  ]
+}
+{
+
+  "task": "Create a 10 day plan for a european trip",
+  "steps": [
+    {"step": "Research popular European destinations", "agent": "web_surfer"},
+    {"step": "Generate a list of must-see attractions", "agent": "text_gen"},
+    {"step": "Create a daily itinerary for each destination", "agent": "text_gen"},
+    {"step": "Design a packing list for the trip", "agent": "text_gen"},
+    {"step": "Compile all information into a PDF document", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "This is the grocery list from last month, this month the number of people in the house has increased by 2 1 adult and 1 child, so create a new grocery list",
+  "steps": [
+    {"step": "Get previous month's grocery list", "agent": "image_parser"},
+    {"step": "Calculate the new quantities based on the increase in household size", "agent": "text_gen"},
+    {"step": "Generate a new grocery list", "agent": "text_gen"},
+  ]
+}
+{
+  "task": "Estimate the cost of a wedding for 100 people",
+  "steps": [
+    {"step": "Research average costs for wedding venues", "agent": "web_surfer"},
+    {"step": "Calculate costs for catering, decorations, and entertainment", "agent": "text_gen"},
+    {"step": "Generate a detailed budget breakdown", "agent": "text_gen"},
+    {"step": "Compile all information into a PDF document", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Create a Content plan for a post on Clothing",
+  "steps": [
+    {"step": "Research current trends in clothing", "agent": "web_surfer"},
+    {"step": "Generate content ideas for the post", "agent": "text_gen"},
+    {"step": "Create a posting schedule", "agent": "text_gen"},
+    {"step": "Design graphics for the post", "agent": "image_gen"},
+    {"step": "Compile all materials into a content plan", "agent": "ppt_creator"}
+  ]
+}
+{
+  "task": "Generate a list of 10 best books to read in 2025",
+  "steps": [
+    {"step": "Research upcoming book releases for 2025", "agent": "web_surfer"},
+    {"step": "Generate a list of recommended books", "agent": "text_gen"},
+    {"step": "Create a summary for each book", "agent": "text_gen"},
+    {"step": "Compile all information into a PDF document", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Design a futuristic city layout",
+  "steps": [
+    {"step": "Research smart city innovations", "agent": "web_surfer"},
+    {"step": "Generate a list of essential city features", "agent": "text_gen"},
+    {"step": "Create a city blueprint illustration", "agent": "image_gen"},
+    {"step": "Compile all information into a report", "agent": "pdf_creator"}
+  ]
+},
+{
+  "task": "Develop a new board game concept",
+  "steps": [
+    {"step": "Research popular board game mechanics", "agent": "web_surfer"},
+    {"step": "Generate a unique game idea and rules", "agent": "text_gen"},
+    {"step": "Design a game board and pieces", "agent": "image_gen"},
+    {"step": "Compile all details into a presentation", "agent": "ppt_creator"}
+  ]
+},
+{
+  "task": "Plan a one-year vegetable garden",
+  "steps": [
+    {"step": "Research optimal plants for each season", "agent": "web_surfer"},
+    {"step": "Generate a planting schedule", "agent": "text_gen"},
+    {"step": "Create a visual garden layout", "agent": "image_gen"},
+    {"step": "Compile all information into a guide", "agent": "pdf_creator"}
+  ]
+},
+{
+  "task": "Write a short sci-fi story",
+  "steps": [
+    {"step": "Research common sci-fi themes and tropes", "agent": "web_surfer"},
+    {"step": "Generate a story outline", "agent": "text_gen"},
+    {"step": "Write the full short story", "agent": "text_gen"},
+    {"step": "Create an illustrated cover for the story", "agent": "image_gen"}
+  ]
+},
+{
+  "task": "Develop a new workout routine for seniors",
+  "steps": [
+    {"step": "Research safe and effective senior workouts", "agent": "web_surfer"},
+    {"step": "Generate a weekly exercise plan", "agent": "text_gen"},
+    {"step": "Create illustrated workout instructions", "agent": "image_gen"},
+    {"step": "Compile all information into a PDF guide", "agent": "pdf_creator"}
+  ]
+},
+{
+  "task": "Create a trivia quiz on space exploration",
+  "steps": [
+    {"step": "Research interesting space facts", "agent": "web_surfer"},
+    {"step": "Generate quiz questions and answers", "agent": "text_gen"},
+    {"step": "Design a visually engaging quiz layout", "agent": "image_gen"},
+    {"step": "Compile the quiz into a presentation", "agent": "ppt_creator"}
+  ]
+},
+{
+  "task": "Design a new fashion brand logo",
+  "steps": [
+    {"step": "Research latest fashion logo trends", "agent": "web_surfer"},
+    {"step": "Generate a concept for the brand identity", "agent": "text_gen"},
+    {"step": "Create a logo design", "agent": "image_gen"},
+    {"step": "Compile all branding materials into a PDF", "agent": "pdf_creator"}
+  ]
+},
+{
+  "task": "Develop a meal plan for someone with food allergies",
+  "steps": [
+    {"step": "Research common food allergens and alternatives", "agent": "web_surfer"},
+    {"step": "Generate a weekly meal plan", "agent": "text_gen"},
+    {"step": "Create a shopping list based on the meal plan", "agent": "text_gen"},
+    {"step": "Compile all details into a PDF document", "agent": "pdf_creator"}
+  ]
+},
+{
+  "task": "Plan a zero-waste home transformation",
+  "steps": [
+    {"step": "Research zero-waste home strategies", "agent": "web_surfer"},
+    {"step": "Generate a step-by-step transformation guide", "agent": "text_gen"},
+    {"step": "Create infographics explaining sustainable habits", "agent": "image_gen"},
+    {"step": "Compile all information into a PDF document", "agent": "pdf_creator"}
+  ]
+},
+{
+  "task": "Design a futuristic electric car concept",
+  "steps": [
+    {"step": "Research latest electric vehicle innovations", "agent": "web_surfer"},
+    {"step": "Generate key features and specifications", "agent": "text_gen"},
+    {"step": "Create a concept illustration of the car", "agent": "image_gen"},
+    {"step": "Compile all details into a presentation", "agent": "ppt_creator"}
+  ]
+},
+{
+  "task": "Create an illustrated children's bedtime story",
+  "steps": [
+    {"step": "Research elements of engaging children's stories", "agent": "web_surfer"},
+    {"step": "Generate a simple bedtime story", "agent": "text_gen"},
+    {"step": "Create illustrations for key scenes", "agent": "image_gen"},
+    {"step": "Compile the book into a PDF", "agent": "pdf_creator"}
+  ]
+},
+{
+  "task": "Design a minimalistic home office setup",
+  "steps": [
+    {"step": "Research minimalistic home office designs", "agent": "web_surfer"},
+    {"step": "Generate a layout plan", "agent": "text_gen"},
+    {"step": "Create a 3D rendering of the office", "agent": "image_gen"},
+    {"step": "Compile all details into a PDF document", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Design a high-tech space station",
+  "steps": [
+    {"step": "Research latest space station designs", "agent": "web_surfer"},
+    {"step": "Generate a list of essential modules", "agent": "text_gen"},
+    {"step": "Create a 3D concept model", "agent": "image_gen"},
+    {"step": "Compile findings into a presentation", "agent": "ppt_creator"}
+  ]
+},
+{
+  "task": "Create a comprehensive cybersecurity guide",
+  "steps": [
+    {"step": "Research top cybersecurity threats", "agent": "web_surfer"},
+    {"step": "Generate a list of protection strategies", "agent": "text_gen"},
+    {"step": "Design infographics on cybersecurity tips", "agent": "image_gen"},
+    {"step": "Compile all information into a PDF guide", "agent": "pdf_creator"}
+  ]
+},
+{
+  "task": "Develop a smart home automation plan",
+  "steps": [
+    {"step": "Research best smart home technologies", "agent": "web_surfer"},
+    {"step": "Generate an automation blueprint", "agent": "text_gen"},
+    {"step": "Create a visual representation of the system", "agent": "image_gen"},
+    {"step": "Compile all details into a PDF document", "agent": "pdf_creator"}
+  ]
+},
+{
+  "task": "Plan a community-driven sustainability project",
+  "steps": [
+    {"step": "Research successful sustainability initiatives", "agent": "web_surfer"},
+    {"step": "Generate an action plan for implementation", "agent": "text_gen"},
+    {"step": "Create promotional posters and materials", "agent": "image_gen"},
+    {"step": "Compile the project details into a report", "agent": "pdf_creator"}
+  ]
+},
+{
+  "task": "Design a next-gen gaming console",
+  "steps": [
+    {"step": "Research latest gaming hardware trends", "agent": "web_surfer"},
+    {"step": "Generate key specifications and features", "agent": "text_gen"},
+    {"step": "Create a 3D concept illustration", "agent": "image_gen"},
+    {"step": "Compile findings into a presentation", "agent": "ppt_creator"}
+  ]
+}
+{
+  "task": "Generate a financial report",
+  "steps": [
+    { "step": "Collect financial data", "agent": "web_surfer" },
+    { "step": "Organize data into a structured format", "agent": "data_combiner" },
+    { "step": "Generate charts and graphs", "agent": "graph_visual_generator" },
+    { "step": "Compile report into a PDF", "agent": "pdf_creator" }
+  ]
+},
+{
+  "task": "Create a product marketing strategy",
+  "steps": [
+    { "step": "Research market trends", "agent": "web_surfer" },
+    { "step": "Analyze competitor strategies", "agent": "web_surfer" },
+    { "step": "Generate strategic recommendations", "agent": "text_gen" },
+    { "step": "Create presentation slides", "agent": "ppt_creator" }
+  ]
+},
+{
+  "task": "Extract insights from customer feedback",
+  "steps": [
+    { "step": "Gather feedback data", "agent": "web_surfer" },
+    { "step": "Analyze sentiment and trends", "agent": "data_combiner" },
+    { "step": "Generate summary report", "agent": "text_gen" },
+    { "step": "Create visual representation", "agent": "graph_visual_generator" }
+  ]
+},
+{
+  "task": "Develop a startup pitch deck",
+  "steps": [
+    { "step": "Research industry statistics", "agent": "web_surfer" },
+    { "step": "Write key points and messaging", "agent": "text_gen" },
+    { "step": "Design slides", "agent": "ppt_creator" },
+    { "step": "Generate relevant images", "agent": "image_gen" }
+  ]
+},
+{
+  "task": "Automate daily sales report",
+  "steps": [
+    { "step": "Fetch sales data", "agent": "web_surfer" },
+    { "step": "Process data into a spreadsheet", "agent": "xlv_creator" },
+    { "step": "Generate sales insights", "agent": "text_gen" },
+    { "step": "Email report to stakeholders", "agent": "text_gen" }
+  ]
+},
+{
+  "task": "Generate weekly social media content",
+  "steps": [
+    { "step": "Analyze trending topics", "agent": "web_surfer" },
+    { "step": "Generate post captions", "agent": "text_gen" },
+    { "step": "Create accompanying images", "agent": "image_gen" },
+    { "step": "Schedule posts", "agent": "text_gen" }
+  ]
+},
+{
+  "task": "Summarize legal documents",
+  "steps": [
+    { "step": "Extract text from PDFs", "agent": "pdf_parser" },
+    { "step": "Identify key clauses", "agent": "text_gen" },
+    { "step": "Generate a summary report", "agent": "text_gen" },
+    { "step": "Format document into a PDF", "agent": "pdf_creator" }
+  ]
+},
+{
+  "task": "Conduct academic research",
+  "steps": [
+    { "step": "Find relevant papers", "agent": "web_surfer" },
+    { "step": "Extract key findings", "agent": "pdf_parser" },
+    { "step": "Summarize insights", "agent": "text_gen" },
+    { "step": "Create research report", "agent": "pdf_creator" }
+  ]
+},
+{
+  "task": "Prepare project roadmap",
+  "steps": [
+    { "step": "Define project goals", "agent": "text_gen" },
+    { "step": "Identify key milestones", "agent": "text_gen" },
+    { "step": "Create timeline visualization", "agent": "graph_visual_generator" },
+    { "step": "Compile into presentation", "agent": "ppt_creator" }
+  ]
+},
+{
+  "task": "Generate eCommerce sales insights",
+  "steps": [
+    { "step": "Collect sales data", "agent": "web_surfer" },
+    { "step": "Analyze purchasing patterns", "agent": "data_combiner" },
+    { "step": "Generate insights report", "agent": "text_gen" },
+    { "step": "Create visual charts", "agent": "graph_visual_generator" }
+  ]
+}
+{
+  "task": "Create a travel itinerary for a trip to Japan",
+  "steps": [
+    {"step": "Research popular destinations in Japan", "agent": "web_surfer"},
+    {"step": "Generate a list of must-see attractions", "agent": "text_gen"},
+    {"step": "Create a daily itinerary for each location", "agent": "text_gen"},
+    {"step": "Design a packing list for the trip", "agent": "text_gen"},
+    {"step": "Compile all information into a PDF document", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Create a recipe book for healthy meals",
+  "steps": [
+    {"step": "Research healthy recipes", "agent": "web_surfer"},
+    {"step": "Generate a list of recipes", "agent": "text_gen"},
+    {"step": "Create a layout for the recipe book", "agent": "text_gen"},
+    {"step": "Design graphics for each recipe", "agent": "image_gen"},
+    {"step": "Compile all information into a PDF document", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Create a business plan for a startup",
+  "steps": [
+    {"step": "Research market trends and competitors", "agent": "web_surfer"},
+    {"step": "Generate a business model canvas", "agent": "text_gen"},
+    {"step": "Create financial projections", "agent": "text_gen"},
+    {"step": "Design a presentation for investors", "agent": "ppt_creator"}
+  ]
+}
+{
+  "task": "Create a personal finance tracker",
+  "steps": [
+    {"step": "Research best practices for personal finance tracking", "agent": "web_surfer"},
+    {"step": "Generate a list of income and expense categories", "agent": "text_gen"},
+    {"step": "Create an Excel template for tracking", "agent": "xlv_creator"},
+    {"step": "Design a dashboard for visualizing finances", "agent": "graph_visual_generator"}
+  ]
+}
+{
+  "task": "Create a marketing plan for a new product launch",
+  "steps": [
+    {"step": "Research target audience and market trends", "agent": "web_surfer"},
+    {"step": "Generate a SWOT analysis", "agent": "text_gen"},
+    {"step": "Create a marketing strategy outline", "agent": "text_gen"},
+    {"step": "Design promotional materials (flyers, social media posts)", "agent": "image_gen"},
+    {"step": "Compile all materials into a presentation", "agent": "ppt_creator"}
+  ]
+}
+{
+  "task": "Create a fitness plan for a beginner",
+  "steps": [
+    {"step": "Research effective beginner workouts", "agent": "web_surfer"},
+    {"step": "Generate a weekly workout schedule", "agent": "text_gen"},
+    {"step": "Include nutrition tips and meal plans", "agent": "text_gen"},
+    {"step": "Compile all information into a PDF document", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Create a family budget plan",
+  "steps": [
+    {"step": "Research best practices for budgeting", "agent": "web_surfer"},
+    {"step": "Generate a list of income and expense categories", "agent": "text_gen"},
+    {"step": "Create an Excel template for budgeting", "agent": "xlv_creator"},
+    {"step": "Design a dashboard for visualizing the budget", "agent": "graph_visual_generator"}
+  ]
+}
+{
+  "task": "Create a travel guide for a city",
+  "steps": [
+    {"step": "Research popular attractions and activities", "agent": "web_surfer"},
+    {"step": "Generate a list of recommended restaurants and hotels", "agent": "text_gen"},
+    {"step": "Create a map of the city with points of interest", "agent": "image_gen"},
+    {"step": "Compile all information into a PDF guide", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Create a presentation on the benefits of meditation",
+  "steps": [
+    {"step": "Research the benefits of meditation", "agent": "web_surfer"},
+    {"step": "Generate an outline for the presentation", "agent": "text_gen"},
+    {"step": "Create slides with key points and visuals", "agent": "ppt_creator"},
+    {"step": "Design infographics to support the content", "agent": "image_gen"}
+  ]
+}
+{
+  "task": "Create a guide for starting a vegetable garden",
+  "steps": [
+    {"step": "Research best practices for vegetable gardening", "agent": "web_surfer"},
+    {"step": "Generate a list of easy-to-grow vegetables", "agent": "text_gen"},
+    {"step": "Create a planting schedule", "agent": "text_gen"},
+    {"step": "Design infographics on gardening tips", "agent": "image_gen"},
+    {"step": "Compile all information into a PDF guide", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Create a guide for improving public speaking skills",
+  "steps": [
+    {"step": "Research effective public speaking techniques", "agent": "web_surfer"},
+    {"step": "Generate a list of tips and tricks", "agent": "text_gen"},
+    {"step": "Create a presentation with key points", "agent": "ppt_creator"},
+    {"step": "Design infographics to support the content", "agent": "image_gen"}
+  ]
+}
+{
+  "task": "Create a guide for starting a blog",
+  "steps": [
+    {"step": "Research best practices for blogging", "agent": "web_surfer"},
+    {"step": "Generate a list of popular blogging platforms", "agent": "text_gen"},
+    {"step": "Create a step-by-step guide for setting up a blog", "agent": "text_gen"},
+    {"step": "Design infographics on blogging tips", "agent": "image_gen"},
+    {"step": "Compile all information into a PDF guide", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Create a guide for starting a new Gaming YouTube channel",
+  "steps": [
+    {"step": "Research best practices for YouTube channels", "agent": "web_surfer"},
+    {"step": "Generate a list of popular gaming genres", "agent": "text_gen"},
+    {"step": "Create a step-by-step guide for setting up a channel", "agent": "text_gen"},
+    {"step": "Design infographics on YouTube tips", "agent": "image_gen"},
+    {"step": "Compile all information into a PDF guide", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "Create a guide for starting a new Cooking YouTube channel",
+  "steps": [
+    {"step": "Research best practices for YouTube channels", "agent": "web_surfer"},
+    {"step": "Generate a list of popular cooking genres", "agent": "text_gen"},
+    {"step": "Create a step-by-step guide for setting up a channel", "agent": "text_gen"},
+    {"step": "Design infographics on YouTube tips", "agent": "image_gen"},
+    {"step": "Compile all information into a PDF guide", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "How to create an AI agent that can diffrenciate between images",
+  "steps": [
+    {"step": "Research image classification algorithms", "agent": "web_surfer"},
+    {"step": "Generate a list of popular libraries and frameworks", "agent": "text_gen"},
+    {"step": "Create a step-by-step guide for building the agent", "agent": "text_gen"},
+    {"step": "Design infographics on AI concepts", "agent": "image_gen"},
+    {"step": "Compile all information into a PDF guide", "agent": "pdf_creator"}
+  ]
+}
+{
+  "task": "create a guide on how to learn python in 30 days",
+  "steps": [
+    {"step": "Research best practices for learning Python", "agent": "web_surfer"},
+    {"step": "Generate a 30-day learning plan", "agent": "text_gen"},
+    {"step": "Create a list of recommended resources", "agent": "text_gen"},
+    {"step": "Design infographics on Python concepts", "agent": "image_gen"},
+    {"step": "Compile all information into a PDF guide", "agent": "pdf_creator"}
+  ]
+}
