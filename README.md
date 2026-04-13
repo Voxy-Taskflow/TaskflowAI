@@ -2,7 +2,7 @@
 
 **TaskflowAI** is an intelligent task automation framework designed to break down complex tasks into actionable steps and execute them using specialized agents. It leverages cutting-edge AI models for natural language processing, image generation, web searching, PDF parsing, and more — making it a powerful assistant for developers, researchers, and productivity enthusiasts.
 
-> ⚠️ **Note:** TaskflowAI is currently under active development and may not function as expected. Some features are buggy or incomplete.
+> ⚠️ **Note:** Production of Taskflow AI is currently on halt, if you want to use it you would need your one of the two, first, all the required agents running on your local system or second API keys to the said agents, thanks.
 
 ---
 
